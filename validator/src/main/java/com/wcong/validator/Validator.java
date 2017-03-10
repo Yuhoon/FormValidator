@@ -33,7 +33,7 @@ public class Validator {
             for (Rule rule : validations.get(key)) {
                 if (!rule.validate(String.valueOf(key.getText()))) {
                     key.requestFocus();
-                    resultCall.onFailure(rule.getErrorMessage());
+                    resultCall.onFailure(key,rule.getErrorMessage());
                     isTure = false;
                     return;
                 }

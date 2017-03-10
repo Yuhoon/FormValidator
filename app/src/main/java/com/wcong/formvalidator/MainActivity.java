@@ -4,6 +4,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.wcong.validator.ValidateResultCall;
@@ -50,8 +51,9 @@ public class MainActivity extends AppCompatActivity {
             }
 
             @Override
-            public void onFailure(String message) {
+            public void onFailure(TextView view,String message) {
                 //TODO 失败
+                view.setText(null);
                 Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
             }
         });
