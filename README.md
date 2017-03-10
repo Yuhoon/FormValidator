@@ -15,6 +15,7 @@ Validator validator = new Validator();
 validator.register(edittext, new RequiredRule("密码不能为空"));
 ```    
 单控件校验：
+
 ```
      if (validator.validate((EditText) findViewById(R.id.edt_password))) {
                //TODO 成功
@@ -22,7 +23,8 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
                //TODO 失败
            }   
            
- ```          
+           
+           ```
 多控件校验：
 
 ```
