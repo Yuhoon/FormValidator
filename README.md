@@ -21,10 +21,10 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
                //TODO 成功
            } else {
                //TODO 失败
-           }   
+          }   
            
-           
-           ```
+```
+
 多控件校验：
 
 ```
