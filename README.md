@@ -7,7 +7,8 @@ compile 'com.yuhoon.validator:validator:v0.1'
 ```    
 ##使用：
 初始化：
-``` Validator validator = new Validator();
+``` 
+Validator validator = new Validator();
 ```    
 注册view及校验规则：
 ```
