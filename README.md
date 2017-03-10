@@ -20,10 +20,10 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
                //TODO 成功
            } else {
                //TODO 失败
-           }
-           
+           }   
  ```          
 多控件校验：
+
 ```
         validator.validateAll(new ValidateResultCall() {
             @Override
@@ -38,6 +38,7 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
                 Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
             }
         });
+       
  ```
 ##校验规则：
 ###正则校验
