@@ -3,7 +3,7 @@
 
 build.gradle 引入
 ```
-compile 'com.yuhoon.validator:validator:v0.1'
+compile 'com.yuhoon.validator:validator:v0.3'
 ```    
 ##使用：
 初始化：
