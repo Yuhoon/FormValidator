@@ -70,4 +70,4 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
 
 * ConfirmationRule    确认提示信息
 
-大家可以
+我只提供了几种常用的规则，有小伙想加新校验规则的，可以实现Rule重写规则。
