@@ -36,8 +36,9 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
             }
 
             @Override
-            public void onFailure(String message) {
+            public void onFailure(TextView view,String message) {
                 //TODO 失败
+                view.setText(null);
                 Toast.makeText(MainActivity.this, message, Toast.LENGTH_SHORT).show();
             }
         });
