@@ -6,6 +6,11 @@ build.gradle 引入
     compile 'com.yuhoon.validator:validator:v0.1'
 #使用：
 
-    Validator validator = new Validator();//初始化
-    validator.register((EditText) findViewById(R.id.edt_password), new RequiredRule("密码不能为空"), new UniformityRule((EditText) findViewById(R.id.edt_rePassword), "两次密码输入不一致"));
+初始化
+
+    Validator validator = new Validator();
+    
+注册view及校验规则
+
+    validator.register(edittext, new RequiredRule("密码不能为空"));
     
