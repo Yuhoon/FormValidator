@@ -46,26 +46,28 @@ validator.register(edittext, new RequiredRule("密码不能为空"));
 ##校验规则：
 ###正则校验
 
-*EmailRule   邮箱校验
+* EmailRule   邮箱校验
 
-*IdCardRule  身份证校验（15或18位）
+* IdCardRule  身份证校验（15或18位）
 
-*PhoneNumberRule 电话校验
+* PhoneNumberRule 电话校验
 
-*UrlRule URL校验
+* UrlRule URL校验
 
 ###普通校验
 
-*ExactLengthRule 标准长度校验
+* ExactLengthRule 标准长度校验
 
-*MaxLengthRule   最大长度校验
+* MaxLengthRule   最大长度校验
 
-*MinLengthRule   最小长度校验
+* MinLengthRule   最小长度校验
 
-*RequiredRule    非空校验
+* RequiredRule    非空校验
 
-*UniformityRule 与指定edittext进行文本校验
+* UniformityRule 与指定edittext进行文本校验
 
 ###非校验
 
-*ConfirmationRule    确认提示信息
+* ConfirmationRule    确认提示信息
+
+大家可以
